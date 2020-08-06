@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Simple Registration Form</title>
+	<link rel="stylesheet" type="text/css" href="Css/style.css">
+</head>
+<body>
+<header>
+	<div class="main">
+	    <div class="logo">
+	    	<img src="images/logo2.png" >
+	    </div>
+		<ul>
+		    <li class="active"><a href="index.html">HOME</a></li>
+			<li><a href="staff.html">STAFF</a></li>
+			<li><a href="student.html">STUDENT</a></li>
+			<li><a href="help.html">HELP</a></li>
+		</ul>
+	</div>
+</header>
+	<form action="insert.php" method="post" ">
+	
+<div class="simple-form">
+	</form>
+	<div class="header">
+	<h2>Registration Form</h2>
+</div>
+	<form id="registration" action="insert.php" method="POST">
+	   
+		<input type="text" name="fname" id="button" placeholder="Enter Your First Name"><!-- <br> <br> -->
+		<input type="text" name="lname" id="button" placeholder="Enter Your Last Name"><!-- <br> <br> -->
+		<input type="text" name="surname" id="button" placeholder="Enter Your Surname"><br> <br>
+		<input type="text" name="regno" id="button" placeholder="Enter Your Registration Number"> <!-- <br> <br> -->
+        <input type="text" name="nID" id="button" placeholder="Enter Your National ID"><br> <br>
+		<!-- <select id="ph"><option>+254</option><option>+252</option><option>+258</option><option>+243</option><option>+256</option></select> -->
+		<input type="number" name="num" placeholder="Enter Your Mobile Number" id="phone"><!-- <br> <br> -->
+		<input type="address" name="address" id="button" placeholder="Enter Your Email Address"><br> <br>
+		
+		<input type="radio" name="gender" id="rd">&nbsp;&nbsp;&nbsp;&nbsp;<span id="but">Male</span>&nbsp;&nbsp;&nbsp;&nbsp;<input type="radio" name="gender" id="rd">&nbsp;&nbsp;&nbsp;&nbsp;<span id="but">Female</span><!-- <br> <br> -->
+		<select id="Status" name="status"><option>Select Your Marital Status</option><option>Single</option><option>Engaged</option><option>Married</option><option>Divorced</option><option>Widowed</option></select><br><br>
+		<font color="white">Date Of Birth:            </font>><input type="date" value="date" name="dob" id="button" placeholder="Enter Your Date Of Birth"><br> <br>
+		<select id="Yos" name="yos"><option>Select Your Year of Study</option><option>First Year</option><option>Second Year</option><option>Third Year</option><option>Fourth Year</option><option>Fifth Year</option><option>Sixth Year</option></select><!-- <br><br> -->
+		<select id="Yos" name="prog_code"><option>Select Your Programme</option><option>CIT</option><option>DIT</option><option>BIT</option><option>MIT</option><option>PIT</option><option>BCS</option></select><br><br>
+		<select id="Yos" name="nationality"><option>Select Your Nationality</option><option>Kenya</option><option>Uganda</option><option>Tanzania</option><option>Rwanda</option><option>Burundi</option><option>Sudan</option></select><!-- <br><br> -->
+		<select id="Yos" name="county"><option>Select Your County</option><option>Bungoma</option><option>Kakamega</option><option>Tranzoia</option><option>Uasingishu</option><option>Nairobi</option><option>Nakuru</option></select><br><br>
+		
+		
+		<input type="password" name="password" id="button" placeholder="Enter Your Password"><!-- <br> <br> -->
+		<input type="password" name="pass2" id="button" placeholder="Confirm Your Password"><br> <br>
+		<input type="submit" value="Register" id="butt">
+		<p><font color="white">
+			Already a member? <a href="login.html">Sign In</a> </font>
+		</p>
+	</form>
+</div>
+</body>
+</html>
